@@ -15,8 +15,8 @@ function Home() {
       <div className={styles.image}><Image src={acmLogo} width={200} height={200} alt="acmlogo"/>
       </div>
     </div>
-  )
   );
+  
 }
 
 export default Home;
