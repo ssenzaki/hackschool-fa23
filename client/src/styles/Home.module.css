@@ -1,19 +1,14 @@
-/* Homepage styling */
+/* Homepage Styling */
 @@ -1,12 +1,13 @@
 
 .welcome {
     margin: 40px 0px;
     font-size: 25px;
     text-align: center;
-}
-
-.image {
-    /* Use flexbox to center the image both horizontally and vertically */
   }
-
+  
   .image {
     display: flex;
-}
     justify-content: center;
     align-items: center;
   }
