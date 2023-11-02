@@ -1,18 +1,11 @@
 // Import the GameHistory component
 
+import TypingGameComponent from "../components/typing-game-component/TypingGameComponent";
 
-
-export default function GameHistory() {
-    return (
-        <div className={styles.container}>
-            <h1>Previous Games</h1>
-
-            {/* Container for top 3 games */}
-
-
-
-
-            {/* Container for all games */}
-        </div>
-    );
-}
+export default function GamePage() {
+    return(
+        <div className="game-component">
+        <TypingGameComponent />
+      </div>
+    )
+};
